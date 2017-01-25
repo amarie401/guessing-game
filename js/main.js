@@ -59,6 +59,7 @@ guessButton.addEventListener('submit', () => {
   //reload page once i < 5 to refresh
     if (i < 5) {
     } else {
+      alert('Game Over')
       location.reload();
     }
     checkRepeat();
