@@ -1,3 +1,6 @@
+console.clear();
+"use strict";
+
 //generate a random number and declare variables
 let randomNumber = Math.floor(Math.random() * 100) + 1;
 let statusOutput = document.getElementById('output-status');
